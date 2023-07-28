@@ -44,7 +44,7 @@ Behind the scenes, JS always runs in a certain environment, most common ones are
 
 - The Interpreter’s job is to take the AST that has been created and transform it into an Intermediate Representation of the code (IR).
 
-* The Compiler
+### The Compiler
 
 ![Alt text](assets/image3.png)
 
@@ -56,4 +56,30 @@ Behind the scenes, JS always runs in a certain environment, most common ones are
 * 3 - Just-In-Time Compilation — Combination between the AOT strategy and the interpretation strategy, a JIT compilation strategy attempts to take the best from both worlds, performing dynamic compilation, but also allowing certain optimizations to happen, which really speeds up the compilation process. We’ll explain more about JIT compilation.
 
 
----------------------------------------      
+---------------------------------------
+
+---------------------------------------  
+
+# Question 2
+## What is the output & Why?
+```js
+let timerId = setInterval(function() {
+alert('tick'); 
+}, 2000); 
+
+setTimeout(function(){ 
+clearInterval(timerId); 
+alert('stop'); 
+}, 5000);
+
+//Output:
+tick 
+tick 
+stop
+```
+* Explanation - The output of the code is `"tick"` and `"stop"`.
+
+The first line creates a timer that will call the function every 2 seconds. The second line creates a timeout that will call the function after 5 seconds. The first function will be called twice, once after 2 seconds and once after 4 seconds. The second function will be called after 5 seconds.
+
+
+---------------------------------------
