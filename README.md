@@ -4,7 +4,7 @@
 ## How does the JS engine work?
 Answer - Here Is how JS Engine Works
 
-![Alt text](https://file%252B.vscode-resource.vscode-cdn.net/Users/mac/JavaScript_Assessment4/assets/image2.png?version%253D1690521241375)
+![Alt text](assets/image2.png)
 
 * Environment
 Behind the scenes, JS always runs in a certain environment, most common ones are:
