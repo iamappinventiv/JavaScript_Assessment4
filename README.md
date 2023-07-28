@@ -311,7 +311,7 @@ function clock() {
     let hr = date.getHours().toString();
     let min = date.getMinutes();
     let sec = date.getSeconds();
-    let time = hr + ":" + min + ":" + sec
+    let time = `${hr}:${min}:${sec}`
     console.log(time);
   }
   
