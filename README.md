@@ -14,8 +14,10 @@ Node.js (which is a runtime environment which allows you to run JS outside of th
 
 * Engine
 
-![Alt text](image8.png)
+![Alt text](assets/image8.png)
 
 
 
 ---------------------------------------      
+
+[def]: image8.png
