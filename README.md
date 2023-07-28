@@ -81,5 +81,9 @@ stop
 
 The first line creates a timer that will call the function every 2 seconds. The second line creates a timeout that will call the function after 5 seconds. The first function will be called twice, once after 2 seconds and once after 4 seconds. The second function will be called after 5 seconds.
 
+- The `clearInterval()` method clears a timer set with the setInterval() method.
+
+- The ID value returned by setInterval() is used as the parameter for the `clearInterval()` method.
+
 
 ---------------------------------------
