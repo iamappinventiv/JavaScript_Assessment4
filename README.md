@@ -12,7 +12,7 @@ Behind the scenes, JS always runs in a certain environment, most common ones are
 - Browser (by far the most common)
 - Node.js (which is a runtime environment which allows you to run JS outside of the browser, usually in servers)
 
-* Engine
+### Engine
 
 ![Alt text](assets/image8.png)
 
@@ -24,21 +24,21 @@ Behind the scenes, JS always runs in a certain environment, most common ones are
 
 - Each environment has its own engine, the most common ones are Chrome V8  (which Node also uses ), Firefox SpiderMonkey, JavaScriptCore by Safari and Chakra by IE.
 
-* Parser
+### Parser
 
 ![Alt text](assets/image4.png)
 
 - The parser knows JS syntax and rules, and its job is to go through the code line by line and check if the syntax of the code is correct.
 - If the parser comes across an error, it stops running and sends out an error. If the code is valid, the parser generates something that’s called an Abstract Syntax Tree (or AST for short).
 
-* Abstract Syntax Tree (AST)
+### Abstract Syntax Tree (AST)
 
 ![Alt text](assets/image7.webp)
 
 - AST is a data structure, which is not unique to JS but actually used by a lot of other languages (some of them are Java, C#, Ruby, Python).
 - An AST is simply a tree representation of your code, and the main reason the engine creates an AST instead of compiling directly to a machine code is that it’s easier to convert to machine code when you have the code inside a tree data structure.
 
-* The Interpreter
+### The Interpreter
 
 ![Alt text](assets/image1.webp)
 
